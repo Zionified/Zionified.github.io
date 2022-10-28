@@ -229,8 +229,7 @@ p {
     cursor: pointer;
 }
 
-/* .show */
-.container-show {
+.container .show {
     opacity: 1;
     pointer-events: auto;
 }
@@ -337,8 +336,12 @@ About
     display: none;
 }
 
-.tab-btn .active {
-    background-color: white;
+.tab-btn.active {
+    background: var(--clr-white);
+}
+
+.content.active {
+    display: block;
 }
 
 
